@@ -1,0 +1,186 @@
+* {
+    background-color: #f5f5f3;
+    box-sizing: border-box;
+    color: #0b0b0b;
+    margin: 0;
+    padding: 0;
+    font-family: new time roman, sani-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #header-img {
+    width: 15rem;
+    padding-left: 2rem;
+    position: fixed;
+  }
+  
+  
+  #nav-bar {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 2rem;
+    padding-right: 2rem;
+    position: fixed;
+    top: 8px;
+    right: 2rem;
+    align-items: center;
+  }
+  
+  
+  
+  .nav-link {
+    text-decoration: none;
+    color: #0b0b0b;
+  }
+  
+  .nav-link:hover, footer a:hover {
+    color: #0538f3;
+  }
+  
+  #form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+  
+  #submit {
+    font-weight: bold;
+    background-color: #f09914;
+  }
+  
+  #submit:hover, .price-select:hover {
+    background-color: bisque;
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-family: ui-sans-serif, sans-serif;
+    font-size: 1.6rem;
+  }
+  #form h2 {
+    margin: 0 auto;
+  }
+  
+  #form #email {
+    width: 15rem;
+    height: 2rem;
+    margin: 1rem auto;
+  }
+  
+  #form #submit {
+    width: 10rem;
+    height: 2rem;
+    margin: 0 auto;
+    
+  }
+  
+  #features {
+    margin: 0 8rem;
+  }
+  
+  #features p {
+    font-size: 1.2rem;
+    line-height: 2rem; 
+    margin-bottom: 1.5rem;
+  }
+  
+  #features h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #work-process {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+  }
+  
+  #video {
+    width:35rem;
+  }
+  
+  #price {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .price-choice {
+    border: 1px solid #000;
+    border-radius: 1%;
+    width: 18rem; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+  }
+  
+  .price-title {
+    background-color: #c2beb8;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 1rem;
+    
+  }  
+  
+  .price-money {
+    font-size: 1.5rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1rem;
+  
+  }
+  
+  .price-content {
+    margin: 0.5rem auto;
+  }
+  
+  .price-submit {
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .price-select {
+    background-color: #f09914;
+    width: 6rem;
+    height: 2rem;
+  }
+  
+  footer {
+    margin-top: 30px;
+    background-color: #c2beb8;
+    padding: 20px;
+  
+  }
+  
+  footer ul, footer p {
+    list-style-type: none;
+    display: flex;           
+    justify-content: end;
+    background-color: #c2beb8;  
+  }
+  
+  footer ul li {
+    margin: 8px;
+    background-color: #c2beb8; 
+  }
+  
+  footer a {
+    text-decoration: none;
+    background-color: #c2beb8; 
+  }
+  
+  @media only screen and (maxwidth: 700px) {
+    .price-choice {
+      width: 100%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
